@@ -1,0 +1,126 @@
+.new{
+    border: 1px solid black;
+    background-color:black;
+}
+
+h1{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 300;
+    margin: 10px 0;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.navbar{
+    float: right;
+    margin-top: -48px;
+}
+
+.navbar a:hover {
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+}
+
+.nav {  /*t r b l*/
+    text-decoration: none;
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: inline;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+/* .baner-class{
+} */
+
+.baner-img{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 300px;
+    /* border-radius: 50px; */
+}
+.baner-title{
+    text-align: center;
+    margin-top: -260px;
+    color: #f3ecec;
+}
+.baner-br{
+    border: 1px solid #302020;
+    background: #302020;
+}
+.baner-ar{
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+/* --------------------------------- */
+.projects {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img {
+    width: 280px;
+    height: 220px;
+    border: 1px solid black;
+}
+
+.img-tag {
+    border: 1px solid black;
+    background-color: black;
+    color: antiquewhite;
+    padding: 8px 16px;
+    position: absolute;
+}
+/* ------------------------- */
+.team-img{
+    width: 280px;
+    height: 220px;
+    /* filter: grayscale(70%); */
+}
+
+.card{
+    border: 1px solid white;
+    width: 280px;
+    height: auto;
+}
+/* ----------- */
+.position{
+    color: rgb(100, 96, 96);
+}
+
+.contact{
+    width: 280px;
+    height: 35px;
+    border-color: white;
+}
+/* ------- */
+.contact-input{
+    margin-top: 30px;
+}
+.contact-input input{
+    width: 95%;
+    height: 40px;
+    border-color: rgb(217, 206, 206);
+}
+button {
+    width: 180px;
+    height: 40px;
+    background-color: black;
+    color: wheat;
+}
+/* ----------- */
+.footer {
+    border: 1px solid black;
+    background-color: black;
+    color: azure;
+    height: 70px;
+    text-align: center;
+    line-height: 4;
+}
+/* ----------------------------------------====================----------------------------- */
