@@ -1,0 +1,29 @@
+.profile-name{
+    color: white;
+    font: 50px bold;
+    letter-spacing: 2px;
+}
+
+.last-name{
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.profile-contain{
+    letter-spacing: 1px;
+    color: #6a1423;
+    font-size: 15px;
+}
+
+.profile-id{
+    margin-top: 22px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+/* --------------------------------- */
+.profile-details{
+    font-family: monospace;
+    font-size: 30px;
+}
