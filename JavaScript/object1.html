@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //1. JavaScript object using object bu literal
+        student = {
+            name: "vaishnavi",
+            marks: "65"
+        }
+        document.write(student.name + " " + student.marks + "<br>");
+
+        //2.JavaScript Object By Creating Instance of Object
+        var employee = new Object();
+        employee.name = "Geeta";
+        employee.salary = 50000;
+        document.write(employee.name + " " + employee.salary+"<br>");
+
+
+        //JavaScript Object By Using Object constructor
+        // function book(title, price){
+        //     this.title = title;
+        //     this.price = price;
+        // }
+
+        // myBook = new book("Industry 4.0", 359);
+        // document.write(myBook.title+" "+myBook.price);
+
+
+        // JavaScript object
+        function book(title, price) {
+            //property
+            this.title = title;
+            this.price = price;
+
+            this.changePrice = changePrice;
+            this.changeTitle = changeTitle;
+
+            function changePrice(newPrice) {
+                this.price = newPrice;
+            }
+
+            function changeTitle(newtitle) {
+                this.title = newtitle;
+            }
+        }
+
+        myBook = new book("Industry 4.0", 359);
+        document.write(myBook.title + " " + myBook.price+"<br>");
+        myBook.changePrice(786);
+        myBook.changeTitle("R.S.Agraval");
+        document.write(myBook.title + " " + myBook.price);
+
+    </script>
+    <!-- <button type="submit" onclick="document.write(student.name+' '+student.marks)">literal Object</button><br>
+    <button type="submit" onclick="document.write(employee.name+' '+employee.salary)">Instance Object</button> -->
+
+</body>
+
+</html>

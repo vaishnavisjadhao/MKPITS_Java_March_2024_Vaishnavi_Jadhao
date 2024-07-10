@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function getsqr(number) {
+            // alert(number*number);
+            // return (number*number)
+            // document.write(number*number);
+            document.getElementById("sqr").innerHTML = (number * number);
+        }
+        // document.write(getSqr(2));
+    </script>
+</head>
+
+<body>
+    <div style="border: 1ps solid brown; background: brown; color: aliceblue; width: 50%;margin: auto;">
+        <center>
+            <h1>Find Square of any number</h1>
+            <input type="number" id="num">
+            <input type="button" value="ok" onclick="getsqr(document.getElementById('num').value)">
+            <p>Square of Number =<span id="sqr"> </span></p>
+        </center>
+    </div>
+</body>
+
+</html>
