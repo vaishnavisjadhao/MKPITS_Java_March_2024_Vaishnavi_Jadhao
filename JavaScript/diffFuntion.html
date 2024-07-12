@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Different ways of writing function -->
+    <script>
+        // 1.Simple function
+        function product1(a,b){
+            alert(a*b);
+        }
+
+        // 2.anonymous function
+        var product2 = function(a, b){
+            alert(a*b);
+        }
+
+        //3.arrow function[product is a name of variable]
+        var product3 = (a, b) => {
+            alert(a*b);
+        }
+
+        //3.
+        var product4 = (a, b) =>  alert(a*b);
+        
+    </script>
+    <button type="submit" onclick="product1(2,2)">Simple btn</button>
+    <button type="submit" onclick="product2(2,2)">anonymous btn</button>
+    <button type="submit" onclick="product3(2,2)">arrow btn</button>   
+    <button type="submit" onclick="product4(2,2)">Ok</button>
+    
+</body>
+</html>

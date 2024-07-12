@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Object</title>
+</head>
+<body>
+    <script>
+        document.write('Objetc in object:- '+"<br>")
+        const employee = {
+            name:"Ramesh",
+            id:102,
+            address : {
+                locality : "Dharampeth",
+                city : "Nagpur",
+                per_address : {
+                    paddress : "Dhrampeth Shankar Nagar"
+                }
+            }
+        }
+        document.write(employee['name']+" "+employee.id+"<br>");
+        document.write("<br>"+employee.address.locality+" "+employee['address']['city']+"<br>");
+        document.write("<br>"+employee.address.per_address.paddress+" "+employee['address']['per_address']['paddress']+"<br>");
+
+
+        // array in object
+        const Student = {
+            name:"Vaishnavi",
+            age:23,
+            newhobbies : ["Rading", "Writing", "Playing", "Dancing"]
+        }
+        document.write("<br>"+'Array Object:- '+"<br>")
+        for(var j=0; j<Student.newhobbies.length; j++){
+            document.write(Student.newhobbies[j]+"<br>");
+        }
+
+        document.write("<br>"+'Array:- '+"<br>")
+
+        //array
+        var hobbies = ["Reading", "Writing", "Playing"];
+        for(var i=0; i<hobbies.length; i++){
+            document.write(hobbies[i]+"<br>");
+        }
+    </script>
+</body>
+</html>
